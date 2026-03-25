@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-express",
+  "version": "1.0.0",
+  "description": "Belajar Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    },
+    "collectCoverage": true
+  },
+  "author": "fahmi-nugroho",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.2",
+    "babel-jest": "^30.3.0",
+    "jest": "^30.3.0"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "winston": "^3.19.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  }
+}
