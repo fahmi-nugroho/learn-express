@@ -8,4 +8,8 @@
   - verbose
   - debug
   - silly
-4. 
+4. Format - Kita bisa mengubah format log yang tampil di setup awal deklarasi logger, secara default log yang tampil menggunakan format .json(). 
+  - Custom Format
+  Kita juga bisa membuat format sendiri menggunakan .printf()
+  - Combine Format
+  Kita bisa menggunakan .combine() untuk menggabungkan beberapa format (Tetapi harus dikonfigurasi secara benar agar tidak acak", dan harus diakhiri .json .simple atau .printf)
