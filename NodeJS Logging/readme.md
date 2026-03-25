@@ -17,3 +17,5 @@
   - Combine Format
   Kita bisa menggunakan .combine() untuk menggabungkan beberapa format (Tetapi harus dikonfigurasi secara benar agar tidak acak", dan harus diakhiri .json .simple atau .printf)
 5. Exceptions - Rejections
+  - Winston menyediakan setting agar semua exception yang tidak terhandle di level global/ transport
+  - Winston juga menyediakan setting agar semua rejection yang tidak terhandle di level global/ transport 
